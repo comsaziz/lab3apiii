@@ -24,7 +24,7 @@ function postImage() {
       console.log("Posted:", data);
       getImages();
     })
-    .catch((error) => console.error("Error posting data:", error));
+    
 }
 
 function getImages() {
@@ -49,7 +49,7 @@ function getImages() {
         cont.appendChild(itemDiv);
       });
     })
-    .catch((error) => console.error("Error fetching images:", error));
+  
 }
 
 document.getElementById("btn").addEventListener("click", () => {
