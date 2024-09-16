@@ -52,5 +52,8 @@ function getImages() {
   
 }
 
+document.getElementById("btn").addEventListener("click", () => {
+  postImage();
+});
 
 getImages();
